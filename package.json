@@ -1,0 +1,16 @@
+{
+  "name": "cli-wrapping-dotenv-flow",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prisma": "node -r dotenv-flow/config ./node_modules/.bin/prisma"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@prisma/cli": "^2.14.0",
+    "cross-env": "^7.0.3",
+    "dotenv-flow": "^3.2.0",
+    "execa": "^5.0.0"
+  }
+}
